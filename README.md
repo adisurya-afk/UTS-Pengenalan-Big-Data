@@ -9,6 +9,6 @@ adalah salah satu aplikasi yang termasuk vendor DBMS yang merupakan salah satu a
 adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini tercipta melalui inisiatif oleh para pengembang atau developer yang mana sebelumnya mereka menggunakan MySQL. Alasan pembuatan MariaDB adalah karena telah diakuisisinya MySQL oleh pihak Oracle yang membuat produk ini menjadi produk properietary.
 2.	Mebuat sebuah database Hotel dengan acuan pencarian Points Of Interest.
 •	Desain database secara RDBMS.
- 
+ ![](images/rdbms.png)
 •	Desain database secara model Cassandra.
  
