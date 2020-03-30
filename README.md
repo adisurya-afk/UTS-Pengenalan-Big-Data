@@ -1,6 +1,7 @@
 # UTS-Pengenalan-Big-Data
 <b>1.	Tiga DBMS yang bisa digunakan untuk mengolah Big Data. <br></b>
 * **Cassandra** <br>
+![](images/cassandra)<br>
  atau lengkap APACHE CASSANDRA adalah salah satu produk open source untuk menajemen database yang didistribusikan oleh Apache yang sangat scalable (dapat diukur) dan dirancang untuk mengelola data terstruktur yang berkapasitas sangat besar (Big Data) yang tersebar di banyak server.<br>
 * **MySQL** <br>
 adalah salah satu aplikasi yang termasuk vendor DBMS yang merupakan salah satu aplikasi umum dan paling banyak digunakan oleh pengguna data maupun para programmer. Salah satu alasan mengapa MySQL banyak digunakan karena aplikasi ini terkenal sebagai open source atau gratis. Jadi, Anda tidak akan dikenakan biaya apapun ketika mengunduh maupun juga mengoperasikannya.<br>
@@ -60,6 +61,7 @@ Ketika sebuah node performanya turun, membaca permintaan / tulis dapat dilayani 
 Replikasi data di Cassandra disebut dengan istilah Gossip Protocol dimana satu atau lebih node dalam sebuah Cluster sebagai replika untuk bagian tertentu dari data. Jika terdeteksi bahwa beberapa node datanya out of date, Cassandra akan mengembalikan nilai terbaru untuk klien. Setelah mendapatkan nilai kembalian terbaru, Cassandra melakukan perbaikan membaca di latar belakang untuk memperbarui nilai-nilai yang out of date.<br>
 Gambar berikut menunjukkan bagaimana Cassandra menggunakan replikasi data antara node dalam sebuah cluster untuk memastikan tidak ada satu titik yang mengalami kegagalan.<br>
 <b>Konsep Replication Antar Node Cassandra<br></b> 
+![](images/cassandra replication.jpeg)<br>
 
 # Komponen<br>
 Cassandra mempunyai beberapa komponen utama yaitu :
