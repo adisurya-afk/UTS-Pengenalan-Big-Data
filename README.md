@@ -14,7 +14,7 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
  
 •	Proses instalasi apache Cassandra di Windows (10)<br>
 •	Download java versi 1.8 sesuai dengan yang dibutuhkan Cassandra, apabila menggunakan versi yang lain akan terjadi error atau Cassandra tidak akan bisa dijalankan
- 
+ ![](images/1.png)<br>
 •	Kemudian download python dengan versi 2.7 
  
 •	Setelah java dan python sudah terinstal pastikan kembali sudah terdeteksi oleh sistem.
