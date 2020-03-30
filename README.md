@@ -50,3 +50,23 @@ Setelah di update<br>
 ![](images/20.png)<br>
 •	Proses menghapus dan menampilkan data pada tabel.<br>
 ![](images/21.png)<br>
+
+#Arsitektur<br>
+Cassandra di desain awal untuk menghandle Big Data yang terdiri dari banyak titik-titik (node) yang terpisah-pisah dan saling bekerjasama nyaris tanpa ada kesalahan.<br>
+Cassandra memiliki peer-to-peer sistem terdistribusi di seluruh node, dan data didistribusikan di antara semua node dalam sebuah cluster.<br>
+Semua node dalam sebuah cluster memainkan peran yang sama. Setiap node independen dan pada saat yang sama saling berhubungan ke node lain.<br>
+Setiap node dalam sebuah cluster dapat menerima membaca dan menulis permintaan, terlepas dari mana data sebenarnya terletak di cluster.<br>
+Ketika sebuah node performanya turun, membaca permintaan / tulis dapat dilayani dari node lain dalam jaringan.<br>
+Replikasi data di Cassandra disebut dengan istilah Gossip Protocol dimana satu atau lebih node dalam sebuah Cluster sebagai replika untuk bagian tertentu dari data. Jika terdeteksi bahwa beberapa node datanya out of date, Cassandra akan mengembalikan nilai terbaru untuk klien. Setelah mendapatkan nilai kembalian terbaru, Cassandra melakukan perbaikan membaca di latar belakang untuk memperbarui nilai-nilai yang out of date.<br>
+Gambar berikut menunjukkan bagaimana Cassandra menggunakan replikasi data antara node dalam sebuah cluster untuk memastikan tidak ada satu titik yang mengalami kegagalan.<br>
+<b>Konsep Replication Antar Node Cassandra<b><br> 
+
+#Komponen<br>
+Cassandra mempunyai beberapa komponen utama yaitu :
+•	Node : ini adalah server tempat penyimpanan data.
+•	Data Center : kumpulan dari beberapa node.
+•	Cluster : Kumpulan dari beberapa data center.
+•	Commit Log : adalah log dari proses penulisan di Cassandra , yang berfungsi juga sebagai Crash Recovery Mechanism.
+•	Mem-Table : Adalah memory-resident data structure. Setelah menulis dalam commit log , cassandra melakukan penulisan di sini.
+•	CQL : Cassandra Query Language , adalah bahasa perintah query di cassandra .
+
