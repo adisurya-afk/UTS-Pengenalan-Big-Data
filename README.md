@@ -13,23 +13,17 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
 ![](images/dbms.png)<br>
  
 •	Proses instalasi apache Cassandra di Windows (10)<br>
-•	Download java versi 1.8 sesuai dengan yang dibutuhkan Cassandra, apabila menggunakan versi yang lain akan terjadi error atau Cassandra tidak akan bisa dijalankan
+•	Download java versi 1.8 sesuai dengan yang dibutuhkan Cassandra, apabila menggunakan versi yang lain akan terjadi error atau Cassandra tidak akan bisa dijalankan<br>
  ![](images/1.png)<br>
-•	Kemudian download python dengan versi 2.7 
- 
-•	Setelah java dan python sudah terinstal pastikan kembali sudah terdeteksi oleh sistem.
- 
-
- 
-•	Proses mendownload cassandra
- 
- 
- 
-•	Setelah menginstal java, python, dan Cassandra sudah di download masukan directori file nya ke dalam PATH pada Envoirment System.
- 
-  
-
-•	Buat variable baru untuk JAVA dengan nama JAVA_HOME.
+•	Kemudian download python dengan versi 2.7 <br>
+ ![](images/2.png)<br>
+•	Setelah java dan python sudah terinstal pastikan kembali sudah terdeteksi oleh sistem.<br>
+ ![](images/3.png)<br>
+•	Proses mendownload cassandra<br>
+ ![](images/4.png)<br>
+•	Setelah menginstal java, python, dan Cassandra sudah di download masukan directori file nya ke dalam PATH pada Envoirment System.<br>
+ ![](images/5.png)<br>
+•	Buat variable baru untuk JAVA dengan nama JAVA_HOME.<br>
  
  
 •	Buat variable baru. Kemudian masukan direktori python kedalam path envoirment system.
