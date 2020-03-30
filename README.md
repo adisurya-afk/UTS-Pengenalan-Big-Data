@@ -10,4 +10,5 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
 •	Desain database secara RDBMS.<br>
  ![](images/rdbms.png)<br>
 •	Desain database secara model Cassandra.<br>
+![](images/dbms.png)<br>
  
