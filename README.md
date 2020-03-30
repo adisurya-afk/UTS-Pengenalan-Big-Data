@@ -37,13 +37,16 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
  ![](images/11.png)<br>
  ![](images/12.png)<br>
  ![](images/13.png)<br>
-•	Proses input data dan menampilkan data pada table yang sudah dibuat. 
+•	Proses input data dan menampilkan data pada table yang sudah dibuat.<br>
  ![](images/14.png)<br>
  ![](images/15.png)<br>
  ![](images/16.png)<br>
  ![](images/17.png)<br>
  ![](images/18.png)<br>
-•	Proses Update data dan menampilkan data pada tabel.
-Sebelum update
-Setelah di update
-•	Proses menghapus dan menampilkan data pada tabel.
+•	Proses Update data dan menampilkan data pada tabel.<br>
+Sebelum update<br>
+![](images/19.png)<br>
+Setelah di update<br>
+![](images/20.png)<br>
+•	Proses menghapus dan menampilkan data pada tabel.<br>
+![](images/21.png)<br>
