@@ -24,27 +24,14 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
 •	Setelah menginstal java, python, dan Cassandra sudah di download masukan directori file nya ke dalam PATH pada Envoirment System.<br>
  ![](images/5.png)<br>
 •	Buat variable baru untuk JAVA dengan nama JAVA_HOME.<br>
- 
- 
-•	Buat variable baru. Kemudian masukan direktori python kedalam path envoirment system.
- 
- 
-•	Buat juga variabel baru untuk memasukan direktori Cassandra dengan nama CASSANDRA_HOME. 
- 
-
-
-
-
-
-
-
-
- 
+  ![](images/6.png)<br>
+•	Buat variable baru. Kemudian masukan direktori python kedalam path envoirment system.<br>
+  ![](images/7.png)<br>
+•	Buat juga variabel baru untuk memasukan direktori Cassandra dengan nama CASSANDRA_HOME.<br>
+ ![](images/8.png)<br>
 •	Setelah semua variable diubuat, buka Command Promt dengan admin. Jalankan perintah “cassandra” untuk menjalankan mesin apache Cassandra.
- 
- 
-
+ ![](images/9.png)<br>
 •	Setelah apache Cassandra terkoneksi, buka command promt lagi untuk menjalankan perintah Cqlsh ntuk memulai shell SQL. 
- 
+ ![](images/10.png)<br>
  
 
