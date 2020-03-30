@@ -33,5 +33,18 @@ adalah aplikasi DBSM yang merupakan aplikasi database dari MySQL. Aplikasi ini t
  ![](images/9.png)<br>
 •	Setelah apache Cassandra terkoneksi, buka command promt lagi untuk menjalankan perintah Cqlsh ntuk memulai shell SQL. 
  ![](images/10.png)<br>
+ •	Membuat tabel pada Cassandra<br>
+ ![](images/11.png)<br>
+ ![](images/12.png)<br>
+ ![](images/13.png)<br>
+•	Proses input data dan menampilkan data pada table yang sudah dibuat. 
+ 
+ 
+ 
+ 
+ 
  
-
+•	Proses Update data dan menampilkan data pada tabel.
+Sebelum update
+Setelah di update
+•	Proses menghapus dan menampilkan data pada tabel.
