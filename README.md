@@ -49,7 +49,7 @@ Sebelum update<br>
 Setelah di update<br>
 ![](images/20.png)<br>
 *	Proses menghapus dan menampilkan data pada tabel.<br>
-![](images/21.png)<br></b>
+<b>![](images/21.png)<br></b>
 
 # Arsitektur<br>
 Cassandra di desain awal untuk menghandle Big Data yang terdiri dari banyak titik-titik (node) yang terpisah-pisah dan saling bekerjasama nyaris tanpa ada kesalahan.<br>
