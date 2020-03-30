@@ -1,6 +1,6 @@
 # UTS-Pengenalan-Big-Data
 <b>1.	Tiga DBMS yang bisa digunakan untuk mengolah Big Data. <br></b>
-**Cassandra** <br>
+* **Cassandra** <br>
  atau lengkap APACHE CASSANDRA adalah salah satu produk open source untuk menajemen database yang didistribusikan oleh Apache yang sangat scalable (dapat diukur) dan dirancang untuk mengelola data terstruktur yang berkapasitas sangat besar (Big Data) yang tersebar di banyak server.<br>
 **MySQL** <br>
 adalah salah satu aplikasi yang termasuk vendor DBMS yang merupakan salah satu aplikasi umum dan paling banyak digunakan oleh pengguna data maupun para programmer. Salah satu alasan mengapa MySQL banyak digunakan karena aplikasi ini terkenal sebagai open source atau gratis. Jadi, Anda tidak akan dikenakan biaya apapun ketika mengunduh maupun juga mengoperasikannya.<br>
